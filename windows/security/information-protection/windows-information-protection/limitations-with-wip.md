@@ -78,7 +78,7 @@ This table provides info about the most common problems you might encounter whil
     </tr>
     <tr>
         <td>An unmanaged device can use Remote Desktop Protocol (RDP) to connect to a WIP-managed device.</td>
-        <td><p>Data copied from the WIP-managed device is marked as <b>Work</b>.<p>Data copied to the WIP-managed device is not marked as <b>Work</b>.<p>Local <b>Work</b> data copied to the WIP-managed device remains <b>Work</b> data.<p><b>Work</b> data that is copied between two apps in the same session remains </b> data.</td>
+        <td><p>Data copied from the WIP-managed device is marked as <b>Work</b>. It still has a lock icon but its file ownership belongs to onmicrosoft.com. It is readable and can be changed to personal at will. So it is actually not wip-protected anymore. <p>Data copied to the WIP-managed device is not marked as <b>Work</b>.<p>Local <b>Work</b> data copied to the WIP-managed device remains <b>Work</b> data.<p><b>Work</b> data that is copied between two apps in the same session remains </b> data.</td>
         <td>Disable RDP to prevent access because there is no way to restrict access to only devices managed by WIP. RDP is disabled by default.</td>
     </tr>
     <tr>
